@@ -3,7 +3,7 @@ cask "openmcf" do
   name "openmcf"
   desc "OpenMCF CLI - Infrastructure as Code made simple"
   homepage "https://github.com/plantonhq/openmcf"
-  version "0.3.51"
+  version "0.3.52-cli.20260310.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "openmcf" do
   on_macos do
     on_intel do
       url "https://github.com/plantonhq/openmcf/releases/download/v#{version}/cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "d53bbaa17d953bb4df158556da51310e170e124978e15f311a485ee7b44ec00e"
+      sha256 "de3824fcc65f27163daad97fd745fc94b44d4fa02b482fd7d4721c901e5fe0d0"
     end
     on_arm do
       url "https://github.com/plantonhq/openmcf/releases/download/v#{version}/cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "0e011f414effde656b3b03d7f9324bd54c0d584d683eabb4e3b436d01f7ba942"
+      sha256 "b6ed666a2d47ca72ed1306c0cc8f51f615286d28c87f6df7e6a0d145fa4f1d9e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/plantonhq/openmcf/releases/download/v#{version}/cli_#{version}_linux_amd64.tar.gz"
-      sha256 "5aab16585d8d43813fba3b6a177d9f625d76839b02d432c0c06e4cc67be00478"
+      sha256 "7335cbc1bf65c419bf711ee5d1ec20112647bbb8e97b32a9f8b3134a4c42cf11"
     end
     on_arm do
       url "https://github.com/plantonhq/openmcf/releases/download/v#{version}/cli_#{version}_linux_arm64.tar.gz"
-      sha256 "6e5258d4d6fd897e36322b7ca03d752d1334ba6e8b94edf3f63d1c5ebcdf0903"
+      sha256 "7a101c6260c30f1eb2487ce992652ffcd554b64b50cb0228e1637f4833b4daf5"
     end
   end
 
