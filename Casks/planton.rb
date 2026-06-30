@@ -4,22 +4,22 @@ cask "planton" do
 
   on_macos do
     on_intel do
-      sha256 "89c7e442f0ec2c9070312678a15c8cab61cb3bae2c723226cd43add857a66093"
+      sha256 "e806cb7eb63b9427f827c09302357c4276025aec5cca172e8aefebcbac0a5bd5"
       url "https://github.com/plantonhq/planton/releases/download/v#{version}/cli_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "da363f5c2ba0e3fddaa1468e98fbfc540adb9f5464563d960e717aceaa8b5cc0"
+      sha256 "e02cb0809ee5a4634de59537fed3d8894d8255574220bf6e92cd79f3e8614725"
       url "https://github.com/plantonhq/planton/releases/download/v#{version}/cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "c6fc17d9f67a6d4cc06a4d12b7b5b7b88c5f5b44ee79fc9830fea8a13d0a6807"
+      sha256 "ecc998a45cdb16bc2b99ddbc31a3086c38691a2b1fe9896694d72d5590a05565"
       url "https://github.com/plantonhq/planton/releases/download/v#{version}/cli_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "9381321e198fe985bd51c4088dfaec93cdfbe0fab6d210fbbe5a9610385bd8f7"
+      sha256 "7146b0c724ceb12b3e6d7a7b7b5c18a36e4286cbe9b109b6752acb70512c02e6"
       url "https://github.com/plantonhq/planton/releases/download/v#{version}/cli_#{version}_linux_arm64.tar.gz"
     end
   end
