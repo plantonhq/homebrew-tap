@@ -1,10 +1,10 @@
 class Planton < Formula
   version "v0.0.32-cli.20260620.0"
-  desc "planton: CLI interface for Planton Cloud"
-  homepage "https://planton.cloud"
+  desc "Planton CLI for deploying and managing your cloud infrastructure"
+  homepage "https://planton.app"
   os_arch = `arch`
   arch = (os_arch.include? "arm64")? "arm64" : "amd64"
-  url "https://downloads.planton.ai/client-apps/planton/cli/#{version}/planton-#{version}-darwin-#{arch}"
+  url "https://downloads.planton.app/cli/#{version}/planton-#{version}-darwin-#{arch}"
   def install
     os_arch = `arch`
     arch = (os_arch.include? "arm64")? "arm64" : "amd64"
@@ -19,25 +19,16 @@ class Planton < Formula
     <<~EOS
       ✨ Installation Complete!
 
-      Next Steps
+      Planton works out of the box: with no backend configured, IaC commands
+      (apply, plan, destroy, ...) run locally on your machine.
 
-      1. Authenticate with Planton Cloud:
+      To connect to planton.ai:
 
-         planton auth login
+         planton login
 
-         This will open your browser to log in with your planton.cloud credentials.
-
-      2. Set your organization context:
+      Then set your organization context:
 
          planton context set --org acmecorp
-
-         This sets the default organization for all CLI commands.
-
-      3. (Optional) Set your environment context:
-
-         planton context set --org acmecorp --env prod
-
-         This sets the default environment for cloud resource operations.
 
       Happy deploying! 🚀
 
