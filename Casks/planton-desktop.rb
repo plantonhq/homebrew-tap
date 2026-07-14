@@ -1,6 +1,6 @@
 cask "planton-desktop" do
-  version "v0.0.32-desktop.20260619.0"
-  sha256 "6257523e81d24b5cc17391acbbbd91bbe94335f3bb5bed9fade131b4a90053e0"
+  version "v0.0.33"
+  sha256 "2c1aa1ca5ea9fd94666e5e7525e8e5dba4db44fd6e4451ed9f97268e4af7884e"
 
   url "https://downloads.planton.app/desktop/#{version}/planton-desktop-#{version}-universal-macos.dmg"
   name "Planton"
@@ -8,6 +8,11 @@ cask "planton-desktop" do
   homepage "https://planton.app"
 
   app "Planton.app"
+
+  caveats <<~CAVEAT
+    On first launch, picking the Local instance downloads its runtime
+    (control plane + datastores, a few hundred MB) into ~/.planton/cache.
+  CAVEAT
 
   zap trash: [
     "~/Library/Application Support/ai.planton.desktop",
