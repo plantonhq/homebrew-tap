@@ -1,5 +1,5 @@
 class PlantonRunner < Formula
-  version "v0.0.34-runner.20260802.3"
+  version "v0.0.34-runner.20260802.4"
   desc "planton-runner: Unified agent for Cloud Operations and Automation Workflows"
   homepage "https://planton.ai"
   os_arch = `arch`
