@@ -1,6 +1,6 @@
 cask "planton-desktop" do
-  version "v0.0.44"
-  sha256 "f7604693163487fdaaaaca26f27fe4e115a3a7ed7f49c3a45ccb6fdfa48d29fc"
+  version "v0.0.45"
+  sha256 "08b4be775c0e00d5a11b70300ba27f269f228ba001f8300bf3fc5dc2ed674a93"
 
   url "https://downloads.planton.app/desktop/#{version}/planton-desktop-#{version}-universal-macos.dmg"
   name "Planton"
