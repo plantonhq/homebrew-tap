@@ -1,5 +1,5 @@
 class Planton < Formula
-  version "v0.0.47"
+  version "v0.0.48"
   desc "Planton CLI for deploying and managing your cloud infrastructure"
   homepage "https://planton.app"
   os_arch = `arch`
