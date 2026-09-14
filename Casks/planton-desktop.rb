@@ -1,6 +1,6 @@
 cask "planton-desktop" do
-  version "v0.0.62"
-  sha256 "35892ce04cf6e84cd8f1f37c2e615739c3cb3f79e01bc5b1d4b3b574a0f61f30"
+  version "v0.0.64"
+  sha256 "61392bc2a380be23398924e24778b67ff57cd13db6e47dc42f338418b84afc0e"
 
   url "https://downloads.planton.app/desktop/#{version}/planton-desktop-#{version}-universal-macos.dmg"
   name "Planton"
@@ -9,7 +9,7 @@ cask "planton-desktop" do
 
   # A complete install includes the terminal half: the planton CLI ships as
   # its own formula (its own release cadence, its own `planton upgrade`), and
-  # depending on it here means `brew install planton-desktop` delivers both,
+  # depending on it here means `brew install --cask planton-desktop` (after\n  # `brew trust --tap plantonhq/tap`; Homebrew 6 loads the tap only once trusted) delivers both,
   # with brew owning the CLI's updates. Direct-DMG installs get the same
   # completeness through the app's in-app CLI install offer instead.
   depends_on formula: "planton"
