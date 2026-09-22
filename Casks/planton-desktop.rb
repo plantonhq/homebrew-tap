@@ -1,11 +1,11 @@
 cask "planton-desktop" do
-  version "v0.0.73"
-  sha256 "ebf5ee3460c5d6ef51453309a62688266ea38317e6e71825bd96fad9f312d456"
+  version "v0.0.74"
+  sha256 "891645818995930db0cca4c188c5aaf1a2365491e297cec5eb69a76b85aaf470"
 
   url "https://downloads.planton.app/desktop/#{version}/planton-desktop-#{version}-universal-macos.dmg"
   name "Planton"
   desc "Planton — free desktop app for your cloud infrastructure"
-  homepage "https://planton.ai/features/desktop"
+  homepage "https://planton.ai/desktop"
 
   # A complete install includes the terminal half: the planton CLI ships as
   # its own formula (its own release cadence, its own `planton upgrade`), and
