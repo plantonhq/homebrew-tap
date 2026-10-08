@@ -1,27 +1,27 @@
 class PlantonOs < Formula
   desc "Planton OS CLI"
   homepage "https://planton.ai"
-  version "v0.0.151"
+  version "v0.0.152"
 
   on_macos do
     on_arm do
-      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.151/planton-os-v0.0.151-darwin-arm64"
-      sha256 "1c6a77bb60425aae8a6fad93c35a229960bcb22635579d6e04ab7b1e92ac7199"
+      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.152/planton-os-v0.0.152-darwin-arm64"
+      sha256 "8485f774983ba185a89aa2602d49585c26ec1a6723dfbed6a47d6e384b84a3aa"
     end
     on_intel do
-      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.151/planton-os-v0.0.151-darwin-amd64"
-      sha256 "b859bc49c81560af977e844f1291a00fc730da25796559603923fef197a6e66b"
+      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.152/planton-os-v0.0.152-darwin-amd64"
+      sha256 "aaa5ed3801359845363f9a3409d498c1322d1233aa24c129c477bcc5daa16c91"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.151/planton-os-v0.0.151-linux-arm64"
-      sha256 "b2afbecf80779b22ce925f899a7e71e552eeb0fe2fb4be38c2e573819f5fcb8d"
+      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.152/planton-os-v0.0.152-linux-arm64"
+      sha256 "72ae8cd17f3beae86a2bfc46dd854a160ea0506f05c95d95aaa94c84c85667ad"
     end
     on_intel do
-      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.151/planton-os-v0.0.151-linux-amd64"
-      sha256 "a28588e8938230aefd8035b283447c6585199b0c2a7782dddfb378303ccc68ab"
+      url "https://downloads.planton.ai/client-apps/planton-os/cli/v0.0.152/planton-os-v0.0.152-linux-amd64"
+      sha256 "7d153f25493ed7a064ccb9e109d78cd0848e9f041f73c5d90161ca9f1090088c"
     end
   end
 
